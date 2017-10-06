@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mini_page_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/mini_ui_setting_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/debit_cards_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/mini_margin_textview_6"
+                android:layout_marginLeft="@dimen/mini_add_card_margin_left"
+                android:layout_marginTop="@dimen/mini_margin_textview_13"
+                android:text="@string/mini_setting_debit_cards_tips"
+                android:textColor="@color/mini_color_light_gray"
+                android:textSize="@dimen/mini_text_size_14"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/debit_cards_group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/mini_margin_13"
+                android:layout_marginRight="@dimen/mini_margin_13"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/credit_cards_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/mini_margin_textview_6"
+                android:layout_marginLeft="@dimen/mini_add_card_margin_left"
+                android:layout_marginTop="@dimen/mini_margin_textview_13"
+                android:text="@string/mini_setting_credit_cards_tips"
+                android:textColor="@color/mini_color_light_gray"
+                android:textSize="@dimen/mini_text_size_14"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/credit_cards_group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="@dimen/mini_margin_27"
+                android:layout_marginLeft="@dimen/mini_margin_13"
+                android:layout_marginRight="@dimen/mini_margin_13"
+                android:orientation="vertical"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

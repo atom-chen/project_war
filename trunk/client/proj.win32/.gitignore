@@ -1,0 +1,14 @@
+*.sdf
+*.opensdf
+*.obj
+*.tlog
+*.exp
+*.ilk
+*.log
+*.res
+*.pdb
+*.lastbuildstate
+*.cache
+*.idb
+*.suo
+*.lib

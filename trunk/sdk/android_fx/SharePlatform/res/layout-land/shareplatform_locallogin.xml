@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shareplatform_locallogin_background_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7f000000" >
+
+    <LinearLayout
+        android:id="@+id/shareplatform_locallogin_view_id"
+        android:layout_width="429dp"
+        android:layout_height="337dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shell_chatbar_background_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/shell_chatbar_title_background"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/shareplatform_login_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中"
+                android:textStyle="bold"
+                android:textColor="#b1b1b1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="国"
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:textColor="#b1b1b1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移"
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:textColor="#b1b1b1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动"
+                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
+                android:textColor="#b1b1b1"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shareplatform_locallogin_sms_login_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <EditText
+                android:id="@+id/shareplatform_locallogin_sms_phonenumber_id"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/shareplatform_locallogin_rectangle"
+                android:hint="@string/phone"
+                android:imeOptions="actionNext"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#505050"
+                android:textColorHint="#dedede"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="10dp"
+                android:weightSum="2" >
+
+                <EditText
+                    android:id="@+id/shareplatform_locallogin_sms_code_id"
+                    android:layout_width="138dp"
+                    android:layout_height="32dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shareplatform_locallogin_rectangle"
+                    android:hint="@string/code"
+                    android:imeOptions="actionDone"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColor="#505050"
+                    android:textColorHint="#dedede"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/shareplatform_locallogin_sms_getcode_id"
+                    android:layout_width="131dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="@string/getcode"
+                    android:textColor="#138fe0"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/shareplatform_locallogin_sms_login_btn_id"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="10dp"
+                android:background="#21c671"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shareplatform_locallogin_account_login_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/shareplatform_locallogin_account_account_id"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shareplatform_locallogin_rectangle"
+                android:hint="@string/phones"
+                android:imeOptions="actionNext"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#505050"
+                android:textColorHint="#dedede"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/shareplatform_locallogin_account_password_id"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shareplatform_locallogin_rectangle"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#cbcbcb"
+                android:textColorHint="#dedede"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/shareplatform_locallogin_account_login_btn_id"
+                android:layout_width="276dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#21c671"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/shareplatform_locallogin_cancel_id"
+            android:layout_width="73dp"
+            android:layout_height="31dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="39dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginTop="39dp"
+            android:background="#d9d9d9"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout>

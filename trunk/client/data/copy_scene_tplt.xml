@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<copy_scene_tplt>
+		<key_number.id>1001</key_number.id>
+		<string.scene_image>map_scene_001.jpg</string.scene_image>
+		<string.booth_image>monster_platform_001.png</string.booth_image>
+		<string.effect>EffectScene01.lua</string.effect>
+	</copy_scene_tplt>
+	<copy_scene_tplt>
+		<key_number.id>1002</key_number.id>
+		<string.scene_image>map_scene_002.jpg</string.scene_image>
+		<string.booth_image>monster_platform_002.png</string.booth_image>
+		<string.effect>EffectScene01.lua</string.effect>
+	</copy_scene_tplt>
+</root>

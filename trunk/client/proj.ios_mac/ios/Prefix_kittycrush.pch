@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'client' target in the 'client' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#define CHANNEL_ID          @"20002"
+
+#define SHARE_SUCCESS_MSG   @"Share success"
+#define SHARE_FAIL_MSG      @"Share fail, code:%d, describe:%@"
+#define SHARE_CANCEL_MSG    @"Share cancelled"
+
+#define PAY_SUCCESS_MSG     @"Purchase success"
+#define PAY_FAIL_MSG        @"Purchase fail"
+#define PAY_CANCES_MSG      @"Purchase cancelled"
+#define PAY_MSG_001         @"Purchase fail, App Store product is error, code = %s"
+#define PAY_MSG_002         @"Purchase fail, forbidden make in-payments"
+#define PAY_MSG_003         @"Waiting for purchase ..."
+#define PAY_MSG_004         @"Purchase fail, can't find product"
+
+#define REAMRK_MSG          @"Rate us with 5 stars?"
+#define REAMRK_YES          @"Yes"
+#define REAMARK_NO          @"No"

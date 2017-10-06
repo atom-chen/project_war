@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'client' target in the 'client' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#define CHANNEL_ID   @"20001"
+
+#define SHARE_SUCCESS_MSG   @"分享成功"
+#define SHARE_FAIL_MSG      @"分享失败, 错误码:%d, 错误描述:%@"
+#define SHARE_CANCEL_MSG    @"分享取消"
+
+#define PAY_SUCCESS_MSG     @"支付成功"
+#define PAY_FAIL_MSG        @"支付失败"
+#define PAY_CANCES_MSG      @"支付取消"
+#define PAY_MSG_001         @"支付失败, App Store 支付码不正确, code = %s"
+#define PAY_MSG_002         @"支付失败, 用户禁止应用内付费购买"
+#define PAY_MSG_003         @"支付等待中, 请稍等..."
+#define PAY_MSG_004         @"支付失败, 无法获取产品信息"
+
+#define REAMRK_MSG          @"亲，去给个五星评价呗"
+#define REAMRK_YES          @"前往"
+#define REAMARK_NO          @"拒绝"

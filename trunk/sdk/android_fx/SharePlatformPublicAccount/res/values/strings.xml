@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="publicaccount_need_login">need login</string>
+    <string name="publicaccount_bind_success">关注公众号成功</string>
+    <string name="publicaccount_bind_repeat">已关注成功,请不要重复关注</string>
+    <string name="publicaccount_bind_failed">关注公众号失败</string>
+    <string name="publicaccount_requestsever_failed">连接服务器失败</string>
+    <string name="publicaccount_request_timeout">网络连接超时，请稍后重试</string>
+    <string name="publicaccount_unbind_success">取消关注公众号成功</string>
+    <string name="publicaccount_unbind_failed">取消关注公众号失败</string>
+</resources>

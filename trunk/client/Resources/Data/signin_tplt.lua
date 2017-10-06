@@ -1,0 +1,9 @@
+return{
+[1]={id=1,reward_id=9101,scale=0.57},
+[2]={id=2,reward_id=9102,scale=0.6},
+[3]={id=3,reward_id=9103,scale=0.57},
+[4]={id=4,reward_id=9104,scale=1},
+[5]={id=5,reward_id=9105,scale=0.6},
+[6]={id=6,reward_id=9106,scale=1},
+[7]={id=7,reward_id=9107,scale=0.6}
+}

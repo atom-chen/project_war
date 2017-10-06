@@ -1,0 +1,60 @@
+/////////////////////////////////////////////////////////
+///// Config.json配置
+/////////////////////////////////////////////////////////
+showlog:是否打印日志
+debug:是否调试模式
+update_type:资源更新类型(1.内网,2.外网,3.官网)
+update_url:资源自动更新地址
+/////////////////////////////////////////////////////////
+///// 渠道说明
+/////////////////////////////////////////////////////////
+类型	渠道ID	渠道名字
+android	10001	自有
+android	10002	自有官方包
+android	10011	uc
+android	10021	百度
+android	10031	应用宝
+android	10041	中兴
+android	10051	华为
+android	10061	机锋
+android	10071	安卓市场
+android	10081	安智
+android	10091	当乐
+android	10101	联想
+android	10111	360
+android	10121	小米
+android	10131	豌豆荚
+android	10141	魅族
+android	10151	金立
+android	10161	oppo
+android	10171	应用汇
+android	10181	移动
+android	10191	联通
+android	10201	电信
+android	10211	4399
+android	10221	2144
+android	10231	新浪微博
+android	10241	杭州哲信
+android	10251	海存量
+android	10261	飞信
+android	10271	google play
+android	10281	爱游戏
+android	10291	Coda印度尼西亚
+android	10301	华为（拉美）
+android	10311	高思(东南亚)
+android	10321	触控
+ios	20001	自有
+ios	20021	91助手
+ios	20031	苹果园
+ios	20041	爱贝
+ios	20051	pp助手
+ios	20061	快用助手
+ios	20071	同步推
+ios	20081	itools
+ios	20091	海马平台
+ios	20101	爱思助手
+ios	20111	appstore
+windows	30001	自有
+tv	40001	自有
+/////////////////////////////////////////////////////////
+

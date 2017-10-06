@@ -1,0 +1,11 @@
+﻿data2lua.exe 是一个用于用于把向的小程序
+
+用法: 通过cmd或其他方式运行该exe,后面传入一定的参数
+
+参数规则: 
+(1)选项-dir		目录路径(如:绝对路径D:/temp或相对路径temp)
+(2)选项-file	文件名(如:item_tplt.csv)
+(3)选项-ext		文件类型(目前只支持.xls,.xml,.csv三个数据格式)
+
+例子: data2lua.exe -dir D:/temp -file item_tplt.csv
+	  data2lua.exe -dir D:/temp -ext .xls .xml .csv

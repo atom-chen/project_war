@@ -1,0 +1,14 @@
+key_number:id,string:name,string:image
+1,Candy,ball_01.png
+2,Cookie,cookie_01.png
+3,Keys,key_01.png
+4,Diamond,diamond_01.png
+5,Cookies,ball_03.png
+6,Diamonds,shop_diamond_2.png
+7,Energy,max_power.png
+8,Max Energy,max_power_2.png
+9, Candies.,cookie_03.png
+10,cookies,ball_01.png
+11,cookies,ball_01.png
+12,candies,cookie_02.png
+13,candies,cookie_02.png

@@ -1,0 +1,10 @@
+key_number:id,string:channel_id,string:power_price,string:dx_code_power,string:lt_code_power,string:yd_code_power,string:as_code_power,string:gp_code_power,string:dis_moves_price,string:moves_discount_img,string:dx_code_dis_moves,string:lt_code_dis_moves,string:yd_code_dis_moves,string:as_code_dis_moves,string:gp_code_dis_moves,string:moves_price,string:dx_code_moves,string:lt_code_moves,string:yd_code_moves,string:as_code_moves,string:gp_code_moves
+1,10001,3,90002431,7484,nil,nil,nil,1,dis_dia_5.png,90002429,7481,nil,nil,nil,2,90002430,7483,nil,nil,nil
+2,10241,3,QY00039AB003,QY00039AB003,QY00039AB003,nil,nil,1,dis_dia_2.png,QY00039AB001,QY00039AB001,QY00039AB001,nil,nil,2,QY00039AB002,QY00039AB002,QY00039AB002,nil,nil
+3,20001,6,nil,nil,nil,com.onekes.kxllx.price6.power,nil,1,dis_dia_2.png,nil,nil,nil,com.onekes.kxllx.price1.discount_move,nil,3,nil,nil,nil,com.onekes.kxllx.price6.move,nil
+4,10271,0.99,nil,nil,nil,nil,com.onekes.kittycrush.price8.power,0.98,dis_dia_5.png,nil,nil,nil,nil,com.onekes.kittycrush.price4.move,0.99,nil,nil,nil,nil,com.onekes.kittycrush.price8.move
+5,10181,3,nil,nil,4,nil,nil,1,dis_dia_2.png,nil,nil,0,nil,nil,2,nil,nil,3,nil,nil
+6,10191,3,nil,nil,nil,nil,nil,1,dis_dia_2.png,nil,nil,nil,nil,nil,2,nil,nil,nil,nil,nil
+7,10201,3,4,nil,nil,nil,nil,1,dis_dia_2.png,0,nil,nil,nil,nil,2,3,nil,nil,nil,nil
+8,10291,11000,nil,nil,nil,nil,nil,3300,dis_dia_2.png,nil,nil,nil,nil,nil,11000,nil,nil,nil,nil,nil
+9,10301,1,nil,nil,nil,nil,com.onekes.kittycrush.price8.power,0.2,dis_dia_2.png,nil,nil,nil,nil,com.onekes.kittycrush.price4.move,1,nil,nil,nil,nil,com.onekes.kittycrush.price8.move

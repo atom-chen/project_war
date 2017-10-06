@@ -1,0 +1,5 @@
+pre=false
+
+#http_url=https://mobiletestabc.alipaydev.com/mobileclientgw/d3726/gateway.do
+#http_url=https://mclientpre.alipay.com/gateway.do
+http_url=https://mclient.alipay.com/gateway.do

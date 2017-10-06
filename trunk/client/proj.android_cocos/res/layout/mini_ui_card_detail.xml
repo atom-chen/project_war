@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mini_card_detail_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mini_page_bg_color"
+    android:orientation="vertical" >
+
+     <include layout="@layout/mini_ui_setting_title" />
+    
+    <!-- 显示是否为默认银行卡 -->
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/mini_margin_13" />
+
+    <TextView
+        android:id="@+id/mini_bank_default_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="-5dp"
+        android:paddingLeft="@dimen/mini_margin_20"
+        android:text="@string/mini_car_default_use"
+        android:textColor="@color/mini_button_text_disable"
+        android:textSize="@dimen/mini_text_size_medium"
+        android:visibility="gone" />
+    <!-- 显示限额信息 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mini_margin_10"
+        android:layout_marginRight="@dimen/mini_margin_10"
+        android:background="@drawable/mini_input_bg"
+        android:orientation="vertical" >
+
+        <com.alipay.android.mini.widget.MiniLabel
+            android:id="@+id/mini_limit_day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/mini_main_bt_devider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mini_footer_line"
+            tools:ignore="ContentDescription" />
+
+        <com.alipay.android.mini.widget.MiniLabel
+            android:id="@+id/mini_limit_month"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!-- 显示提示信息 包含手机号 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/mini_bank_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/mini_margin_13"
+            android:paddingLeft="@dimen/mini_margin_6"
+            android:paddingRight="@dimen/mini_margin_right"
+            android:paddingTop="@dimen/mini_margin_6"
+            android:text="@string/mini_car_limit_phone"
+            android:textSize="@dimen/mini_text_size_small" />
+    </LinearLayout>
+
+</LinearLayout>

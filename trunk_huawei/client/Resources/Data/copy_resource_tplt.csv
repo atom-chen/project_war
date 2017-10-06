@@ -1,0 +1,3 @@
+key_number:id,string:map_bg,string:seabed_bg,string:booth,list_string:seabed_effect
+1,map_bg_001.jpg,map_booth_bg_001.png,map_booth_001.png,water_down_01.png|water_light.fsh
+2,map_bg_002.jpg,map_booth_bg_002.png,map_booth_001.png,water_down_02.png|water_light.fsh

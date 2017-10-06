@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<shop_tplt>
+		<key_number.id>1</key_number.id>
+		<string.channel_id>10001</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>12</string.price>
+		<number.diamonds>250</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>2</key_number.id>
+		<string.channel_id>10001</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>30</string.price>
+		<number.diamonds>750</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>3</key_number.id>
+		<string.channel_id>10001</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>68</string.price>
+		<number.diamonds>1800</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>4</key_number.id>
+		<string.channel_id>10001</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>128</string.price>
+		<number.diamonds>4500</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>5</key_number.id>
+		<string.channel_id>10001</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>258</string.price>
+		<number.diamonds>10000</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>11</key_number.id>
+		<string.channel_id>20001</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>12</string.price>
+		<number.diamonds>250</number.diamonds>
+		<number.code>6</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>12</key_number.id>
+		<string.channel_id>20001</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>30</string.price>
+		<number.diamonds>750</number.diamonds>
+		<number.code>7</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>13</key_number.id>
+		<string.channel_id>20001</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>68</string.price>
+		<number.diamonds>1800</number.diamonds>
+		<number.code>8</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>14</key_number.id>
+		<string.channel_id>20001</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>128</string.price>
+		<number.diamonds>4500</number.diamonds>
+		<number.code>9</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>15</key_number.id>
+		<string.channel_id>20001</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>258</string.price>
+		<number.diamonds>10000</number.diamonds>
+		<number.code>10</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>16</key_number.id>
+		<string.channel_id>10271</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1.99</string.price>
+		<number.diamonds>250</number.diamonds>
+		<number.code>11</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>17</key_number.id>
+		<string.channel_id>10271</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>4.99</string.price>
+		<number.diamonds>750</number.diamonds>
+		<number.code>12</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>18</key_number.id>
+		<string.channel_id>10271</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>9.99</string.price>
+		<number.diamonds>1800</number.diamonds>
+		<number.code>13</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>19</key_number.id>
+		<string.channel_id>10271</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>19.99</string.price>
+		<number.diamonds>4500</number.diamonds>
+		<number.code>14</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>20</key_number.id>
+		<string.channel_id>10271</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>39.99</string.price>
+		<number.diamonds>10000</number.diamonds>
+		<number.code>15</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>21</key_number.id>
+		<string.channel_id>10181</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1</string.price>
+		<number.diamonds>20</number.diamonds>
+		<number.code>75</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>22</key_number.id>
+		<string.channel_id>10181</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>3</string.price>
+		<number.diamonds>75</number.diamonds>
+		<number.code>76</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>23</key_number.id>
+		<string.channel_id>10181</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>7</string.price>
+		<number.diamonds>185</number.diamonds>
+		<number.code>77</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>24</key_number.id>
+		<string.channel_id>10181</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>15</string.price>
+		<number.diamonds>527</number.diamonds>
+		<number.code>78</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>25</key_number.id>
+		<string.channel_id>10181</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>20</string.price>
+		<number.diamonds>775</number.diamonds>
+		<number.code>97</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>26</key_number.id>
+		<string.channel_id>10191</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1</string.price>
+		<number.diamonds>20</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>27</key_number.id>
+		<string.channel_id>10191</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>3</string.price>
+		<number.diamonds>75</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>28</key_number.id>
+		<string.channel_id>10191</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>7</string.price>
+		<number.diamonds>185</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>29</key_number.id>
+		<string.channel_id>10191</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>15</string.price>
+		<number.diamonds>527</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>30</key_number.id>
+		<string.channel_id>10191</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>20</string.price>
+		<number.diamonds>775</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>31</key_number.id>
+		<string.channel_id>10201</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1</string.price>
+		<number.diamonds>20</number.diamonds>
+		<number.code>79</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>32</key_number.id>
+		<string.channel_id>10201</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>3</string.price>
+		<number.diamonds>75</number.diamonds>
+		<number.code>80</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>33</key_number.id>
+		<string.channel_id>10201</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>7</string.price>
+		<number.diamonds>185</number.diamonds>
+		<number.code>81</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>34</key_number.id>
+		<string.channel_id>10201</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>15</string.price>
+		<number.diamonds>527</number.diamonds>
+		<number.code>82</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>35</key_number.id>
+		<string.channel_id>10201</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>20</string.price>
+		<number.diamonds>775</number.diamonds>
+		<number.code>83</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>36</key_number.id>
+		<string.channel_id>10291</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>25000</string.price>
+		<number.diamonds>250</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>37</key_number.id>
+		<string.channel_id>10291</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>63000</string.price>
+		<number.diamonds>750</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>38</key_number.id>
+		<string.channel_id>10291</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>137500</string.price>
+		<number.diamonds>1800</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>39</key_number.id>
+		<string.channel_id>10291</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>275000</string.price>
+		<number.diamonds>4500</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>40</key_number.id>
+		<string.channel_id>10291</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>1</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>550000</string.price>
+		<number.diamonds>10000</number.diamonds>
+		<number.code>0</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>46</key_number.id>
+		<string.channel_id>10321</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1</string.price>
+		<number.diamonds>20</number.diamonds>
+		<number.code>92</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>47</key_number.id>
+		<string.channel_id>10321</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>3</string.price>
+		<number.diamonds>75</number.diamonds>
+		<number.code>93</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>48</key_number.id>
+		<string.channel_id>10321</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>7</string.price>
+		<number.diamonds>185</number.diamonds>
+		<number.code>94</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>49</key_number.id>
+		<string.channel_id>10321</string.channel_id>
+		<string.name>Chest of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>15</string.price>
+		<number.diamonds>527</number.diamonds>
+		<number.code>95</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>50</key_number.id>
+		<string.channel_id>10321</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>20</string.price>
+		<number.diamonds>775</number.diamonds>
+		<number.code>96</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>51</key_number.id>
+		<string.channel_id>20002</string.channel_id>
+		<string.name>Handful of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_1.png</string.image>
+		<string.price>1.99</string.price>
+		<number.diamonds>250</number.diamonds>
+		<number.code>111</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>52</key_number.id>
+		<string.channel_id>20002</string.channel_id>
+		<string.name>A Box of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_2.png</string.image>
+		<string.price>4.99</string.price>
+		<number.diamonds>750</number.diamonds>
+		<number.code>112</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>53</key_number.id>
+		<string.channel_id>20002</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_3.png</string.image>
+		<string.price>9.99</string.price>
+		<number.diamonds>1800</number.diamonds>
+		<number.code>113</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>54</key_number.id>
+		<string.channel_id>20002</string.channel_id>
+		<string.name>Pouch of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_4.png</string.image>
+		<string.price>19.99</string.price>
+		<number.diamonds>4500</number.diamonds>
+		<number.code>114</number.code>
+	</shop_tplt>
+	<shop_tplt>
+		<key_number.id>55</key_number.id>
+		<string.channel_id>20002</string.channel_id>
+		<string.name>Mountain of Diamonds</string.name>
+		<string.pay_type>2</string.pay_type>
+		<string.image>shop_diamond_5.png</string.image>
+		<string.price>39.99</string.price>
+		<number.diamonds>10000</number.diamonds>
+		<number.code>115</number.code>
+	</shop_tplt>
+</root>

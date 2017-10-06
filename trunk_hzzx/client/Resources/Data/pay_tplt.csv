@@ -1,0 +1,4 @@
+key_number:id,string:channel_id,string:power_price,string:dx_code_power,string:lt_code_power,string:yd_code_power,string:dis_moves_price,string:moves_discount_img,string:dx_code_dis_moves,string:lt_code_dis_moves,string:yd_code_dis_moves,string:moves_price,string:dx_code_moves,string:lt_code_moves,string:yd_code_moves
+1,10001,3,90002431,7484,0,1,dis_dia_5.png,90002429,7481,0,2,90002430,7483,0
+2,10241,3,QY00039AB003,QY00039AB003,QY00039AB003,5,dis_dia_2.png,QY00039AB021,QY00039AB021,QY00039AB021,5,QY00039AB021,QY00039AB021,QY00039AB021
+3,20001,6,0,0,0,0,0,0,0,0,6,0,0,0

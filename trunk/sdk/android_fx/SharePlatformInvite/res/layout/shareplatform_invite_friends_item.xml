@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/shareplatform_invite_contact_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/shareplatform_invite_item_contact_background"
+        android:orientation="horizontal" >
+
+        <com.fetion.shareplatforminvite.view.RoundImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shareplatform_invite_contact_head"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:text="通讯录好友"
+            android:textColor="#5a5a5a"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:text=""
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sharmform_invite_goto_contact" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shareplatform_invite_friend_letter_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#f7f7f7"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/shareplatform_invite_line_above_id"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#e3e3e3" >
+        </View>
+
+        <TextView
+            android:id="@+id/shareplatform_invite_letter_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="A"
+            android:textColor="#777777"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/shareplatform_invite_line_long_id"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#e3e3e3" >
+        </View>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/shareplatform_invite_line_short_id"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#e3e3e3"
+        android:visibility="visible" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/shareplatform_invite_friend_info_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+
+        <com.fetion.shareplatforminvite.view.RoundImageView
+            android:id="@+id/shareplatform_invite_friend_image_id"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shareplatform_contact_default_head"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/shareplatform_invite_friend_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#5a5a5a"
+            android:textSize="17sp" 
+            android:singleLine="true"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

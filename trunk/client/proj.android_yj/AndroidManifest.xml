@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.onekes.kxllx"
+      android:versionCode="80900"
+      android:versionName="0.8.9"
+      android:installLocation="auto">
+
+	<uses-sdk android:minSdkVersion="9"/>
+	<uses-feature android:glEsVersion="0x00020000" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_SMS"/>
+	<uses-permission android:name="com.android.vending.BILLING"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+                 android:name="com.snowfish.cn.ganga.offline.helper.SFOfflineApplication"
+                 android:allowBackup="true">
+					 
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data android:name="android.app.lib_name" android:value="cocos2dlua" />
+        
+        <!-- add by snowfish -->
+		<activity android:name="com.snowfish.cn.ganga.offline.helper.SFGameSplashActivity"
+				  android:label="@string/app_name"
+				  android:screenOrientation="sensor"
+				  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		
+        <activity android:name="com.snowfish.a.a.s.PA"
+            	  android:configChanges="keyboardHidden|orientation"
+            	  android:theme="@android:style/Theme.Translucent"
+            	  android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <service android:name="com.snowfish.a.a.s.ABGSvc"
+            	 android:enabled="true"
+            	 android:process="com.snowfish.a.a.bg">
+			<intent-filter>
+				<action android:name="com.snowfish.a.a.s.ABGSvc" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+        </service>
+
+        <meta-data android:name="com.snowfish.appid" android:value="{79149D7C-9CF18F85}"/>
+        <meta-data android:name="com.snowfish.customer" android:value="snowfish"/>
+        <meta-data android:name="com.snowfish.channel" android:value="snowfish"/>
+        <meta-data android:name="com.snowfish.sdk.version" android:value="1"/>
+        <!-- end by snowfish -->
+		
+        <!-- logo活动 -->
+        <activity android:name="org.cocos2dx.lua.LogoActivity"
+		          android:label="@string/app_name"
+		          android:screenOrientation="portrait"
+		          android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		          android:configChanges="orientation">
+        </activity>
+        
+        <!-- 主活动 -->
+        <activity android:name="org.cocos2dx.lua.AppActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation">
+        </activity>
+        
+        <!-- ShareSDK -->
+        <activity android:name="cn.sharesdk.framework.ShareSDKUIShell"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:screenOrientation="portrait"
+				  android:windowSoftInputMode="stateHidden|adjustResize">
+		    
+			<intent-filter>
+				<data android:scheme="tencent100371282" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+        <!-- ShareSDK,微信分享回调 -->
+        <activity android:name=".wxapi.WXEntryActivity"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:exported="true"
+				  android:screenOrientation="portrait">
+		</activity>
+		
+        <!-- 微信支付回调 -->
+		<activity android:name=".wxapi.WXPayEntryActivity"
+				  android:exported="true"
+				  android:launchMode="singleTop">
+		</activity>
+		
+        <!-- 支付宝 -->
+        <activity android:name="com.alipay.sdk.app.H5PayActivity"
+				  android:configChanges="orientation|keyboardHidden|navigation"
+				  android:exported="false"
+            	  android:screenOrientation="behind"
+				  android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        
+        <activity android:name="com.alipay.sdk.auth.AuthActivity"
+				  android:configChanges="orientation|keyboardHidden|navigation"
+				  android:exported="false"
+				  android:screenOrientation="behind"
+				  android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        
+        <!-- 友盟统计 -->
+        <meta-data android:value="55af44f2e0f55a1e55000470" android:name="UMENG_APPKEY"/>
+		<meta-data android:value="10001" android:name="UMENG_CHANNEL"/>
+		
+		<!-- 友盟更新 -->
+		<activity android:name="com.umeng.update.UpdateDialogActivity"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+		</activity>
+		
+		<service android:name="com.umeng.update.net.DownloadingService"
+				 android:process=":DownloadingService" >
+		</service>
+		
+		<!-- 消息推送 -->
+		<receiver android:name="org.cocos2dx.lua.NotifyReceiver"/>
+		
+    </application>
+
+    <supports-screens android:anyDensity="true"
+                      android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"/>
+</manifest> 

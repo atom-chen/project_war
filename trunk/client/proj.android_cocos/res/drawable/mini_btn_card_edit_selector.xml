@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- normal -->
+    <item android:drawable="@drawable/mini_title_bar_btn_more" android:state_enabled="true" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+    <item android:drawable="@drawable/mini_title_bar_btn_more" android:state_enabled="true" android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+
+    <!-- click -->
+    <item android:drawable="@drawable/mini_title_bar_btn_push" android:state_enabled="true" android:state_pressed="true"/>
+    <!-- disable -->
+    <item android:drawable="@drawable/mini_title_bar_btn_push" android:state_enabled="false"/>
+
+</selector>

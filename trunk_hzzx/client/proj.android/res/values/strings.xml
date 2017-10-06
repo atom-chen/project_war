@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">海底总动员</string>
+    
+    <!-- 退出对话框 -->
+    <string name="exit_dialog_title">提示</string>
+    <string name="exit_dialog_msg">要离开游戏吗？</string>
+    <string name="exit_dialog_btn_yes">退出</string>
+    <string name="exit_dialog_btn_no">取消</string>
+    
+    <!-- 微信分享 -->
+    <string name="wechat_share_success">分享成功</string>
+    <string name="wechat_share_fail">分享失败, 请确认安装了微信客户端</string>
+    <string name="wechat_share_cancel">分享取消</string>
+    
+    <!-- 支付 -->
+    <string name="pay_success">支付成功</string>
+    <string name="pay_fail">支付失败</string>
+    
+</resources>

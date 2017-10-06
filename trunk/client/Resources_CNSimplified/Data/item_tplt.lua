@@ -1,0 +1,15 @@
+return{
+[1]={id=1,name="饼干",image="ball_01.png"},
+[2]={id=2,name="棒棒糖",image="cookie_01.png"},
+[3]={id=3,name="钥匙",image="key_01.png"},
+[4]={id=4,name="钻石",image="diamond_01.png"},
+[5]={id=5,name="饼干",image="ball_03.png"},
+[6]={id=6,name="钻石",image="shop_diamond_2.png"},
+[7]={id=7,name="体力",image="max_power.png"},
+[8]={id=8,name="体力上限",image="max_power_2.png"},
+[9]={id=9,name="棒棒糖",image="cookie_03.png"},
+[10]={id=10,name="饼干",image="ball_01.png"},
+[11]={id=11,name="饼干",image="ball_01.png"},
+[12]={id=12,name="棒棒糖",image="cookie_02.png"},
+[13]={id=13,name="棒棒糖",image="cookie_02.png"}
+}

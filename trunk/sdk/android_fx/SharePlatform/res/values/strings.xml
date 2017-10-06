@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="feinno">Feinno</string>
+    <string name="duanxin">短信登录</string>
+    <string name="zhanghao">账号登录</string>
+    <string name="phone">手机号</string>
+    <string name="code">验证码</string>
+    <string name="getcode">获取验证码</string>
+    <string name="login">登录并授权</string>
+    <string name="phones">手机号</string>
+    <string name="password">密 码</string>
+    <string name="retry">重试</string>
+    <string name="continuing">继续</string>
+    <string name="cancel">取消</string>
+    <string name="auto_logining">中国移动用户登录中...</string>
+    <string name="login_token_avalible">亲爱的中国移动用户,欢迎回来</string>
+    <string name="login_sms">应用将访问您的系统短信</string>
+    <string name="login_sms_alert">自动登录需要发送一条普通短信，按中国移动资费标准收取，详情请咨询10086</string>
+    <string name="get_code">正在获取验证码，请稍候...</string>
+    <string name="code_is_send">验证码 已发送</string>
+    <string name="on_time_out">连接服务器超时</string>
+    <string name="on_failed">连接服务器失败</string>
+    <string name="on_error">连接服务器错误</string>
+    <string name="login_ok">登录成功</string>
+    <string name="login_on">完成登录</string>
+    <string name="login_error">登录失败</string>
+    <string name="not_sim">您无SIM卡，请尝试手动登录</string>
+    <string name="not_feinno">您不是移动用户，请尝试手动登录</string>
+    <string name="network_error">网络连接异常，请检查网络状态</string>
+    <string name="send_to">1252004413</string>
+    <string name="auto_login_time_out">自动登录超时</string>
+    <string name="auto_login_ok">亲爱的中国移动用户,欢迎您</string>
+    <string name="auto_login_error">自动登录失败</string>
+    
+    <string name="login_errorcode_one">获取token服务器错误</string>
+    <string name="login_errorcode_two">短信送达服务器时间与接口请求时间大于30秒</string>
+    <string name="login_errorcode_three">imei号对应的短信未送达服务器</string>
+    <string name="login_errorcode_four">sig加密错误</string>
+    <string name="login_errorcode_five">参数错误</string>
+    <string name="login_errorcode_six">您解绑了飞信业务，请重新绑定飞信</string>
+    
+    <string name="locallogin_errorcode_account">账号或验证码错误</string>
+    <string name="locallogin_errorcode_params">登录参数错误(MD5加密错误)</string>
+    <string name="locallogin_getcode_errorone">获取验证码太频繁,请稍后重试</string>
+    <string name="locallogin_getcode_errortwo">您没有注册飞信</string>
+    <string name="locallogin_getcode_errorothree">非中国移动手机号</string>
+    <string name="locallogin_getcode_errorfour">飞信用户不存在</string>
+    <string name="locallogin_getcode_errorfive">您已超过最大失败次数</string>
+    <string name="locallogin_getcode_errorsix">您已超过最大登录次数</string>
+    <string name="locallogin_getcode_failed">获取验证码失败</string>
+    
+    <string name="locallogin_code_null">验证码不能为空</string>
+    <string name="locallogin_phone_null">手机号不能为空</string>
+    <string name="locallogin_phone_lengtherror">手机号位数不足</string>
+</resources>

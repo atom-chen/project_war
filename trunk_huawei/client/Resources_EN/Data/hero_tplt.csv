@@ -1,0 +1,301 @@
+key_number:id,string:name,number:type,number:skill_id,number:level,string:display,number:attack,number:next_id,tuple_number:materials,string:description
+1101,Catchum,1,1301,1,hero_02,150,1102,{1|40},Special Skill:Collect 3 seashells in a line.
+1102,Catchum,1,1301,2,hero_02,175,1103,{1|80},Special Skill:Collect 3 seashells in a line.
+1103,Catchum,1,1302,3,hero_02,200,1104,{1|120},Special Skill:Collect 3 seashells in a line.
+1104,Catchum,1,1302,4,hero_02,225,1105,{1|200},Special Skill:Collect 3 seashells in a line.
+1105,Catchum,1,1302,5,hero_02,250,1106,{1|260}|{2|20},Special Skill:Collect 5 seashells in a line.
+1106,Catchum,1,1302,6,hero_02,275,1107,{1|320}|{2|40},Special Skill:Collect 5 seashells in a line.
+1107,Catchum,1,1302,7,hero_02,300,1108,{1|380}|{2|60},Special Skill:Collect 5 seashells in a line.
+1108,Catchum,1,1303,8,hero_02,325,1109,{1|440}|{2|80},Special Skill:Collect 5 seashells in a line.
+1109,Catchum,1,1303,9,hero_02,350,1110,{1|560}|{2|160},Special Skill:Collect 5 seashells in a line.
+1110,Catchum,1,1303,10,hero_02,375,1111,{1|640}|{2|200},Special Skill:Collect 7 seashells in a line.
+1111,Catchum,1,1303,11,hero_02,400,1112,{1|720}|{2|240},Special Skill:Collect 7 seashells in a line.
+1112,Catchum,1,1303,12,hero_02,425,1113,{1|800}|{2|280},Special Skill:Collect 7 seashells in a line.
+1113,Catchum,1,1303,13,hero_02,450,1114,{1|880}|{2|320},Special Skill:Collect 7 seashells in a line.
+1114,Catchum,1,1303,14,hero_02,475,1115,{1|1040}|{2|440},Special Skill:Collect 7 seashells in a line.
+1115,Catchum,1,1304,15,hero_02,500,1116,{1|1140}|{2|500},Special Skill:Collect 9 seashells in a line.
+1116,Catchum,1,1304,16,hero_02,525,1117,{1|1240}|{2|560},Special Skill:Collect 9 seashells in a line.
+1117,Catchum,1,1304,17,hero_02,550,1118,{1|1340}|{2|620},Special Skill:Collect 9 seashells in a line.
+1118,Catchum,1,1304,18,hero_02,575,1119,{1|1440}|{2|680},Special Skill:Collect 9 seashells in a line.
+1119,Catchum,1,1304,19,hero_02,600,1120,{1|1600}|{2|840},Special Skill:Collect 9 seashells in a line.
+1120,Catchum,1,1305,20,hero_02,625,0,{0|0},Special Skill:Collect 9 seashells in a line.
+1201,Chopper,1,1101,1,hero_11,130,1202,{1|120},Skill:Turn the seashells into red in the range of 3*3.
+1202,Chopper,1,1101,2,hero_11,155,1203,{1|160}|{2|20},Skill:Turn the seashells into red in the range of 3*3.
+1203,Chopper,1,1102,3,hero_11,180,1204,{1|200}|{2|40},Skill:Turn the seashells into red in the range of 3*3.
+1204,Chopper,1,1102,4,hero_11,205,1205,{1|280}|{2|60},Skill:Turn the seashells into red in the range of 3*3.
+1205,Chopper,1,1102,5,hero_11,230,1206,{1|340}|{2|80},Skill:Turn the seashells into red in the range of 3*5.
+1206,Chopper,1,1102,6,hero_11,255,1207,{1|400}|{2|100},Skill:Turn the seashells into red in the range of 5*5.
+1207,Chopper,1,1102,7,hero_11,280,1208,{1|460}|{2|120},Skill:Turn the seashells into red in the range of 5*5.
+1208,Chopper,1,1103,8,hero_11,305,1209,{1|520}|{2|140},Skill:Turn the seashells into red in the range of 5*5.
+1209,Chopper,1,1103,9,hero_11,330,1210,{1|640}|{2|220},Skill:Turn the seashells into red in the range of 5*5.
+1210,Chopper,1,1103,10,hero_11,355,1211,{1|720}|{2|260},Skill:Turn the seashells into red in the range of 7*7.
+1211,Chopper,1,1103,11,hero_11,380,1212,{1|800}|{2|300},Skill:Turn the seashells into red in the range of 7*7.
+1212,Chopper,1,1103,12,hero_11,405,1213,{1|880}|{2|340},Skill:Turn the seashells into red in the range of 7*7.
+1213,Chopper,1,1103,13,hero_11,430,1214,{1|960}|{2|380},Skill:Turn the seashells into red in the range of 7*7.
+1214,Chopper,1,1103,14,hero_11,455,1215,{1|1120}|{2|500},Skill:Turn the seashells into red in the range of 7*7.
+1215,Chopper,1,1104,15,hero_11,480,1216,{1|1220}|{2|560},Skill:Turn the seashells into red in the range of 9*9.
+1216,Chopper,1,1104,16,hero_11,505,1217,{1|1320}|{2|620},Skill:Turn the seashells into red in the range of 9*9.
+1217,Chopper,1,1104,17,hero_11,530,1218,{1|1420}|{2|680},Skill:Turn the seashells into red in the range of 9*9.
+1218,Chopper,1,1104,18,hero_11,555,1219,{1|1520}|{2|740},Skill:Turn the seashells into red in the range of 9*9.
+1219,Chopper,1,1104,19,hero_11,580,1220,{1|1680}|{2|900},Skill:Turn the seashells into red in the range of 9*9.
+1220,Chopper,1,1105,20,hero_11,605,0,{0|0},Skill:Turn the seashells into red in the range of 9*9.
+1301,Huner,1,1201,1,hero_15,250,1302,{1|120},Special skill:Collect 3 seashells in a line.
+1302,Huner,1,1201,2,hero_15,275,1303,{1|160}|{2|20},Special skill:Collect 3 seashells in a line.
+1303,Huner,1,1202,3,hero_15,300,1304,{1|200}|{2|40},Special skill:Collect 3 seashells in a line.
+1304,Huner,1,1202,4,hero_15,325,1305,{1|280}|{2|60},Special skill:Collect 3 seashells in a line.
+1305,Huner,1,1202,5,hero_15,350,1306,{1|340}|{2|80},Special skill:Collect 5 seashells in a line.
+1306,Huner,1,1202,6,hero_15,375,1307,{1|400}|{2|100},Special skill:Collect 5 seashells in a line.
+1307,Huner,1,1202,7,hero_15,400,1308,{1|460}|{2|120},Special skill:Collect 5 seashells in a line.
+1308,Huner,1,1203,8,hero_15,425,1309,{1|520}|{2|140},Special skill:Collect 5 seashells in a line.
+1309,Huner,1,1203,9,hero_15,450,1310,{1|640}|{2|220},Special skill:Collect 5 seashells in a line.
+1310,Huner,1,1203,10,hero_15,475,1311,{1|720}|{2|260},Special skill:Collect 7 seashells in a line.
+1311,Huner,1,1203,11,hero_15,500,1312,{1|800}|{2|300},Special skill:Collect 7 seashells in a line.
+1312,Huner,1,1203,12,hero_15,525,1313,{1|880}|{2|340},Special skill:Collect 7 seashells in a line.
+1313,Huner,1,1203,13,hero_15,550,1314,{1|960}|{2|380},Special skill:Collect 7 seashells in a line.
+1314,Huner,1,1203,14,hero_15,575,1315,{1|1120}|{2|500},Special skill:Collect 7 seashells in a line.
+1315,Huner,1,1204,15,hero_15,600,1316,{1|1220}|{2|560},Special skill:Collect 9 seashells in a line.
+1316,Huner,1,1204,16,hero_15,625,1317,{1|1320}|{2|620},Special skill:Collect 9 seashells in a line.
+1317,Huner,1,1204,17,hero_15,650,1318,{1|1420}|{2|680},Special skill:Collect 9 seashells in a line.
+1318,Huner,1,1204,18,hero_15,675,1319,{1|1520}|{2|740},Special skill:Collect 9 seashells in a line.
+1319,Huner,1,1204,19,hero_15,700,1320,{1|1680}|{2|900},Special skill:Collect 9 seashells in a line.
+1320,Huner,1,1205,20,hero_15,725,0,{0|0},Special skill:Collect 9 seashells in a line.
+2101,Catruto,2,2501,1,hero_03,80,2102,{1|40},Special Skill:Turn the seashells into yellow in the range of 3*3.
+2102,Catruto,2,2501,2,hero_03,105,2103,{1|80},Special Skill:Turn the seashells into yellow in the range of 3*3.
+2103,Catruto,2,2502,3,hero_03,130,2104,{1|120},Special Skill:Turn the seashells into yellow in the range of 3*3.
+2104,Catruto,2,2502,4,hero_03,155,2105,{1|200},Special Skill:Turn the seashells into yellow in the range of 3*3.
+2105,Catruto,2,2502,5,hero_03,180,2106,{1|260}|{2|20},Special Skill:Turn the seashells into yellow in the range of 5*5.
+2106,Catruto,2,2502,6,hero_03,205,2107,{1|320}|{2|40},Special Skill:Turn the seashells into yellow in the range of 5*5.
+2107,Catruto,2,2502,7,hero_03,230,2108,{1|380}|{2|60},Special Skill:Turn the seashells into yellow in the range of 5*5.
+2108,Catruto,2,2503,8,hero_03,255,2109,{1|440}|{2|80},Special Skill:Turn the seashells into yellow in the range of 5*5.
+2109,Catruto,2,2503,9,hero_03,280,2110,{1|560}|{2|160},Special Skill:Turn the seashells into yellow in the range of 5*5.
+2110,Catruto,2,2503,10,hero_03,305,2111,{1|640}|{2|200},Special Skill:Turn the seashells into yellow in the range of 7*7.
+2111,Catruto,2,2503,11,hero_03,330,2112,{1|720}|{2|240},Special Skill:Turn the seashells into yellow in the range of 7*7.
+2112,Catruto,2,2503,12,hero_03,355,2113,{1|800}|{2|280},Special Skill:Turn the seashells into yellow in the range of 7*7.
+2113,Catruto,2,2503,13,hero_03,380,2114,{1|880}|{2|320},Special Skill:Turn the seashells into yellow in the range of 7*7.
+2114,Catruto,2,2503,14,hero_03,405,2115,{1|1040}|{2|440},Special Skill:Turn the seashells into yellow in the range of 7*7.
+2115,Catruto,2,2504,15,hero_03,430,2116,{1|1140}|{2|500},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2116,Catruto,2,2504,16,hero_03,455,2117,{1|1240}|{2|560},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2117,Catruto,2,2504,17,hero_03,480,2118,{1|1340}|{2|620},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2118,Catruto,2,2504,18,hero_03,505,2119,{1|1440}|{2|680},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2119,Catruto,2,2504,19,hero_03,530,2120,{1|1600}|{2|840},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2120,Catruto,2,2505,20,hero_03,555,0,{0|0},Special Skill:Turn the seashells into yellow in the range of 9*9.
+2201,Acatsuki,2,2201,1,hero_13,200,2202,{1|120},Special Skill:Collect 3 seashells in a line.
+2202,Acatsuki,2,2201,2,hero_13,225,2203,{1|160}|{2|20},Special Skill:Collect 3 seashells in a line.
+2203,Acatsuki,2,2202,3,hero_13,250,2204,{1|200}|{2|40},Special Skill:Collect 3 seashells in a line.
+2204,Acatsuki,2,2202,4,hero_13,275,2205,{1|280}|{2|60},Special Skill:Collect 3 seashells in a line.
+2205,Acatsuki,2,2202,5,hero_13,300,2206,{1|340}|{2|80},Special Skill:Collect 5 seashells in a line.
+2206,Acatsuki,2,2202,6,hero_13,325,2207,{1|400}|{2|100},Special Skill:Collect 5 seashells in a line.
+2207,Acatsuki,2,2202,7,hero_13,350,2208,{1|460}|{2|120},Special Skill:Collect 5 seashells in a line.
+2208,Acatsuki,2,2203,8,hero_13,375,2209,{1|520}|{2|140},Special Skill:Collect 5 seashells in a line.
+2209,Acatsuki,2,2203,9,hero_13,400,2210,{1|640}|{2|220},Special Skill:Collect 5 seashells in a line.
+2210,Acatsuki,2,2203,10,hero_13,425,2211,{1|720}|{2|260},Special Skill:Collect 7 seashells in a line.
+2211,Acatsuki,2,2203,11,hero_13,450,2212,{1|800}|{2|300},Special Skill:Collect 7 seashells in a line.
+2212,Acatsuki,2,2203,12,hero_13,475,2213,{1|880}|{2|340},Special Skill:Collect 7 seashells in a line.
+2213,Acatsuki,2,2203,13,hero_13,500,2214,{1|960}|{2|380},Special Skill:Collect 7 seashells in a line.
+2214,Acatsuki,2,2203,14,hero_13,525,2215,{1|1120}|{2|500},Special Skill:Collect 7 seashells in a line.
+2215,Acatsuki,2,2204,15,hero_13,550,2216,{1|1220}|{2|560},Special Skill:Collect 9 seashells in a line.
+2216,Acatsuki,2,2204,16,hero_13,575,2217,{1|1320}|{2|620},Special Skill:Collect 9 seashells in a line.
+2217,Acatsuki,2,2204,17,hero_13,600,2218,{1|1420}|{2|680},Special Skill:Collect 9 seashells in a line.
+2218,Acatsuki,2,2204,18,hero_13,625,2219,{1|1520}|{2|740},Special Skill:Collect 9 seashells in a line.
+2219,Acatsuki,2,2204,19,hero_13,650,2220,{1|1680}|{2|900},Special Skill:Collect 9 seashells in a line.
+2220,Acatsuki,2,2205,20,hero_13,675,0,{0|0},Special Skill:Collect 9 seashells in a line.
+2301,Franky,2,2101,1,hero_09,250,2302,{1|120},Special Skill:Collect 3 seashells in a line.
+2302,Franky,2,2101,2,hero_09,275,2303,{1|160}|{2|20},Special Skill:Collect 3 seashells in a line.
+2303,Franky,2,2102,3,hero_09,300,2304,{1|200}|{2|40},Special Skill:Collect 3 seashells in a line.
+2304,Franky,2,2102,4,hero_09,325,2305,{1|280}|{2|60},Special Skill:Collect 3 seashells in a line.
+2305,Franky,2,2102,5,hero_09,350,2306,{1|340}|{2|80},Special Skill:Collect 5 seashells in a line.
+2306,Franky,2,2102,6,hero_09,375,2307,{1|400}|{2|100},Special Skill:Collect 5 seashells in a line.
+2307,Franky,2,2102,7,hero_09,400,2308,{1|460}|{2|120},Special Skill:Collect 5 seashells in a line.
+2308,Franky,2,2103,8,hero_09,425,2309,{1|520}|{2|140},Special Skill:Collect 5 seashells in a line.
+2309,Franky,2,2103,9,hero_09,450,2310,{1|640}|{2|220},Special Skill:Collect 5 seashells in a line.
+2310,Franky,2,2103,10,hero_09,475,2311,{1|720}|{2|260},Special Skill:Collect 7 seashells in a line.
+2311,Franky,2,2103,11,hero_09,500,2312,{1|800}|{2|300},Special Skill:Collect 7 seashells in a line.
+2312,Franky,2,2103,12,hero_09,525,2313,{1|880}|{2|340},Special Skill:Collect 7 seashells in a line.
+2313,Franky,2,2103,13,hero_09,550,2314,{1|960}|{2|380},Special Skill:Collect 7 seashells in a line.
+2314,Franky,2,2103,14,hero_09,575,2315,{1|1120}|{2|500},Special Skill:Collect 7 seashells in a line.
+2315,Franky,2,2104,15,hero_09,600,2316,{1|1220}|{2|560},Special Skill:Collect 9 seashells in a line.
+2316,Franky,2,2104,16,hero_09,625,2317,{1|1320}|{2|620},Special Skill:Collect 9 seashells in a line.
+2317,Franky,2,2104,17,hero_09,650,2318,{1|1420}|{2|680},Special Skill:Collect 9 seashells in a line.
+2318,Franky,2,2104,18,hero_09,675,2319,{1|1520}|{2|740},Special Skill:Collect 9 seashells in a line.
+2319,Franky,2,2104,19,hero_09,700,2320,{1|1680}|{2|900},Special Skill:Collect 9 seashells in a line.
+2320,Franky,2,2105,20,hero_09,725,0,{0|0},Special Skill:Collect 9 seashells in a line.
+3101,Zoro,3,3101,1,hero_01,150,3102,{1|40},Special Skill:Collect 3 seashells in a line.
+3102,Zoro,3,3101,2,hero_01,175,3103,{1|80},Special Skill:Collect 3 seashells in a line.
+3103,Zoro,3,3102,3,hero_01,200,3104,{1|120},Special Skill:Collect 3 seashells in a line.
+3104,Zoro,3,3102,4,hero_01,225,3105,{1|200},Special Skill:Collect 3 seashells in a line.
+3105,Zoro,3,3102,5,hero_01,250,3106,{1|260}|{2|20},Special Skill:Collect 5 seashells in a line.
+3106,Zoro,3,3102,6,hero_01,275,3107,{1|320}|{2|40},Special Skill:Collect 5 seashells in a line.
+3107,Zoro,3,3102,7,hero_01,300,3108,{1|380}|{2|60},Special Skill:Collect 5 seashells in a line.
+3108,Zoro,3,3103,8,hero_01,325,3109,{1|440}|{2|80},Special Skill:Collect 5 seashells in a line.
+3109,Zoro,3,3103,9,hero_01,350,3110,{1|560}|{2|160},Special Skill:Collect 5 seashells in a line.
+3110,Zoro,3,3103,10,hero_01,375,3111,{1|640}|{2|200},Special Skill:Collect 7 seashells in a line.
+3111,Zoro,3,3103,11,hero_01,400,3112,{1|720}|{2|240},Special Skill:Collect 7 seashells in a line.
+3112,Zoro,3,3103,12,hero_01,425,3113,{1|800}|{2|280},Special Skill:Collect 7 seashells in a line.
+3113,Zoro,3,3103,13,hero_01,450,3114,{1|880}|{2|320},Special Skill:Collect 7 seashells in a line.
+3114,Zoro,3,3103,14,hero_01,475,3115,{1|1040}|{2|440},Special Skill:Collect 7 seashells in a line.
+3115,Zoro,3,3104,15,hero_01,500,3116,{1|1140}|{2|500},Special Skill:Collect 9 seashells in a line.
+3116,Zoro,3,3104,16,hero_01,525,3117,{1|1240}|{2|560},Special Skill:Collect 9 seashells in a line.
+3117,Zoro,3,3104,17,hero_01,550,3118,{1|1340}|{2|620},Special Skill:Collect 9 seashells in a line.
+3118,Zoro,3,3104,18,hero_01,575,3119,{1|1440}|{2|680},Special Skill:Collect 9 seashells in a line.
+3119,Zoro,3,3104,19,hero_01,600,3120,{1|1600}|{2|840},Special Skill:Collect 9 seashells in a line.
+3120,Zoro,3,3105,20,hero_01,625,0,{0|0},Special Skill:Collect 9 seashells in a line.
+3201,Catprusoian,3,3201,1,hero_10,200,3202,{1|120},Special Skill:Collect 3 seashells in a line.
+3202,Catprusoian,3,3201,2,hero_10,225,3203,{1|160}|{2|20},Special Skill:Collect 3 seashells in a line.
+3203,Catprusoian,3,3202,3,hero_10,250,3204,{1|200}|{2|40},Special Skill:Collect 3 seashells in a line.
+3204,Catprusoian,3,3202,4,hero_10,275,3205,{1|280}|{2|60},Special Skill:Collect 3 seashells in a line.
+3205,Catprusoian,3,3202,5,hero_10,300,3206,{1|340}|{2|80},Special Skill:Collect 5 seashells in a line.
+3206,Catprusoian,3,3202,6,hero_10,325,3207,{1|400}|{2|100},Special Skill:Collect 5 seashells in a line.
+3207,Catprusoian,3,3202,7,hero_10,350,3208,{1|460}|{2|120},Special Skill:Collect 5 seashells in a line.
+3208,Catprusoian,3,3203,8,hero_10,375,3209,{1|520}|{2|140},Special Skill:Collect 5 seashells in a line.
+3209,Catprusoian,3,3203,9,hero_10,400,3210,{1|640}|{2|220},Special Skill:Collect 5 seashells in a line.
+3210,Catprusoian,3,3203,10,hero_10,425,3211,{1|720}|{2|260},Special Skill:Collect 7 seashells in a line.
+3211,Catprusoian,3,3203,11,hero_10,450,3212,{1|800}|{2|300},Special Skill:Collect 7 seashells in a line.
+3212,Catprusoian,3,3203,12,hero_10,475,3213,{1|880}|{2|340},Special Skill:Collect 7 seashells in a line.
+3213,Catprusoian,3,3203,13,hero_10,500,3214,{1|960}|{2|380},Special Skill:Collect 7 seashells in a line.
+3214,Catprusoian,3,3203,14,hero_10,525,3215,{1|1120}|{2|500},Special Skill:Collect 7 seashells in a line.
+3215,Catprusoian,3,3204,15,hero_10,550,3216,{1|1220}|{2|560},Special Skill:Collect 9 seashells in a line.
+3216,Catprusoian,3,3204,16,hero_10,575,3217,{1|1320}|{2|620},Special Skill:Collect 9 seashells in a line.
+3217,Catprusoian,3,3204,17,hero_10,600,3218,{1|1420}|{2|680},Special Skill:Collect 9 seashells in a line.
+3218,Catprusoian,3,3204,18,hero_10,625,3219,{1|1520}|{2|740},Special Skill:Collect 9 seashells in a line.
+3219,Catprusoian,3,3204,19,hero_10,650,3220,{1|1680}|{2|900},Special Skill:Collect 9 seashells in a line.
+3220,Catprusoian,3,3205,20,hero_10,675,0,{0|0},Special Skill:Collect 9 seashells in a line.
+3301,Sanji,3,3301,1,hero_06,180,3302,{1|120},Special Skill:Collect the seashells into green in the range of 3*3.
+3302,Sanji,3,3301,2,hero_06,205,3303,{1|160}|{2|20},Special Skill:Collect the seashells into green in the range of 3*3.
+3303,Sanji,3,3302,3,hero_06,230,3304,{1|200}|{2|40},Special Skill:Collect the seashells into green in the range of 3*3.
+3304,Sanji,3,3302,4,hero_06,255,3305,{1|280}|{2|60},Special Skill:Collect the seashells into green in the range of 3*3.
+3305,Sanji,3,3302,5,hero_06,280,3306,{1|340}|{2|80},Special Skill:Collect the seashells into green in the range of 3*3.
+3306,Sanji,3,3302,6,hero_06,305,3307,{1|400}|{2|100},Special Skill:Collect the seashells into green in the range of 3*3.
+3307,Sanji,3,3302,7,hero_06,330,3308,{1|460}|{2|120},Special Skill:Collect the seashells into green in the range of 3*3.
+3308,Sanji,3,3303,8,hero_06,355,3309,{1|520}|{2|140},Special Skill:Collect the seashells into green in the range of 3*3.
+3309,Sanji,3,3303,9,hero_06,380,3310,{1|640}|{2|220},Special Skill:Collect the seashells into green in the range of 3*3.
+3310,Sanji,3,3303,10,hero_06,405,3311,{1|720}|{2|260},Special Skill:Collect the seashells into green in the range of 3*3.
+3311,Sanji,3,3303,11,hero_06,430,3312,{1|800}|{2|300},Special Skill:Collect the seashells into green in the range of 3*3.
+3312,Sanji,3,3303,12,hero_06,455,3313,{1|880}|{2|340},Special Skill:Collect the seashells into green in the range of 3*3.
+3313,Sanji,3,3303,13,hero_06,480,3314,{1|960}|{2|380},Special Skill:Collect the seashells into green in the range of 3*3.
+3314,Sanji,3,3303,14,hero_06,505,3315,{1|1120}|{2|500},Special Skill:Collect the seashells into green in the range of 3*3.
+3315,Sanji,3,3304,15,hero_06,530,3316,{1|1220}|{2|560},Special Skill:Collect the seashells into green in the range of 3*3.
+3316,Sanji,3,3304,16,hero_06,555,3317,{1|1320}|{2|620},Special Skill:Collect the seashells into green in the range of 3*3.
+3317,Sanji,3,3304,17,hero_06,580,3318,{1|1420}|{2|680},Special Skill:Collect the seashells into green in the range of 3*3.
+3318,Sanji,3,3304,18,hero_06,605,3319,{1|1520}|{2|740},Special Skill:Collect the seashells into green in the range of 3*3.
+3319,Sanji,3,3304,19,hero_06,630,3320,{1|1680}|{2|900},Special Skill:Collect the seashells into green in the range of 3*3.
+3320,Sanji,3,3305,20,hero_06,655,0,{0|0},Special Skill:Collect the seashells into green in the range of 3*3.
+4101,Picachu,4,4301,1,hero_04,150,4102,{1|40},Special Skill:Collect 3 seashells in a line.
+4102,Picachu,4,4301,2,hero_04,175,4103,{1|80},Special Skill:Collect 3 seashells in a line.
+4103,Picachu,4,4302,3,hero_04,200,4104,{1|120},Special Skill:Collect 3 seashells in a line.
+4104,Picachu,4,4302,4,hero_04,225,4105,{1|200},Special Skill:Collect 3 seashells in a line.
+4105,Picachu,4,4302,5,hero_04,250,4106,{1|260}|{2|20},Special Skill:Collect 5 seashells in a line.
+4106,Picachu,4,4302,6,hero_04,275,4107,{1|320}|{2|40},Special Skill:Collect 5 seashells in a line.
+4107,Picachu,4,4302,7,hero_04,300,4108,{1|380}|{2|60},Special Skill:Collect 5 seashells in a line.
+4108,Picachu,4,4303,8,hero_04,325,4109,{1|440}|{2|80},Special Skill:Collect 5 seashells in a line.
+4109,Picachu,4,4303,9,hero_04,350,4110,{1|560}|{2|160},Special Skill:Collect 5 seashells in a line.
+4110,Picachu,4,4303,10,hero_04,375,4111,{1|640}|{2|200},Special Skill:Collect 7 seashells in a line.
+4111,Picachu,4,4303,11,hero_04,400,4112,{1|720}|{2|240},Special Skill:Collect 7 seashells in a line.
+4112,Picachu,4,4303,12,hero_04,425,4113,{1|800}|{2|280},Special Skill:Collect 7 seashells in a line.
+4113,Picachu,4,4303,13,hero_04,450,4114,{1|880}|{2|320},Special Skill:Collect 7 seashells in a line.
+4114,Picachu,4,4303,14,hero_04,475,4115,{1|1040}|{2|440},Special Skill:Collect 7 seashells in a line.
+4115,Picachu,4,4304,15,hero_04,500,4116,{1|1140}|{2|500},Special Skill:Collect 9 seashells in a line.
+4116,Picachu,4,4304,16,hero_04,525,4117,{1|1240}|{2|560},Special Skill:Collect 9 seashells in a line.
+4117,Picachu,4,4304,17,hero_04,550,4118,{1|1340}|{2|620},Special Skill:Collect 9 seashells in a line.
+4118,Picachu,4,4304,18,hero_04,575,4119,{1|1440}|{2|680},Special Skill:Collect 9 seashells in a line.
+4119,Picachu,4,4304,19,hero_04,600,4120,{1|1600}|{2|840},Special Skill:Collect 9 seashells in a line.
+4120,Picachu,4,4305,20,hero_04,625,0,{0|0},Special Skill:Collect 9 seashells in a line.
+4201,Meowth,4,4101,1,hero_08,130,4202,{1|120},Special Skill:Turn the seashells into blue in the range of 3*3.
+4202,Meowth,4,4101,2,hero_08,155,4203,{1|160}|{2|20},Special Skill:Turn the seashells into blue in the range of 3*3.
+4203,Meowth,4,4102,3,hero_08,180,4204,{1|200}|{2|40},Special Skill:Turn the seashells into blue in the range of 3*3.
+4204,Meowth,4,4102,4,hero_08,205,4205,{1|280}|{2|60},Special Skill:Turn the seashells into blue in the range of 3*3.
+4205,Meowth,4,4102,5,hero_08,230,4206,{1|340}|{2|80},Special Skill:Turn the seashells into blue in the range of 3*3.
+4206,Meowth,4,4102,6,hero_08,255,4207,{1|400}|{2|100},Special Skill:Turn the seashells into blue in the range of 3*3.
+4207,Meowth,4,4102,7,hero_08,280,4208,{1|460}|{2|120},Special Skill:Turn the seashells into blue in the range of 3*3.
+4208,Meowth,4,4103,8,hero_08,305,4209,{1|520}|{2|140},Special Skill:Turn the seashells into blue in the range of 3*3.
+4209,Meowth,4,4103,9,hero_08,330,4210,{1|640}|{2|220},Special Skill:Turn the seashells into blue in the range of 3*3.
+4210,Meowth,4,4103,10,hero_08,355,4211,{1|720}|{2|260},Special Skill:Turn the seashells into blue in the range of 3*3.
+4211,Meowth,4,4103,11,hero_08,380,4212,{1|800}|{2|300},Special Skill:Turn the seashells into blue in the range of 3*3.
+4212,Meowth,4,4103,12,hero_08,405,4213,{1|880}|{2|340},Special Skill:Turn the seashells into blue in the range of 3*3.
+4213,Meowth,4,4103,13,hero_08,430,4214,{1|960}|{2|380},Special Skill:Turn the seashells into blue in the range of 3*3.
+4214,Meowth,4,4103,14,hero_08,455,4215,{1|1120}|{2|500},Special Skill:Turn the seashells into blue in the range of 3*3.
+4215,Meowth,4,4104,15,hero_08,480,4216,{1|1220}|{2|560},Special Skill:Turn the seashells into blue in the range of 3*3.
+4216,Meowth,4,4104,16,hero_08,505,4217,{1|1320}|{2|620},Special Skill:Turn the seashells into blue in the range of 3*3.
+4217,Meowth,4,4104,17,hero_08,530,4218,{1|1420}|{2|680},Special Skill:Turn the seashells into blue in the range of 3*3.
+4218,Meowth,4,4104,18,hero_08,555,4219,{1|1520}|{2|740},Special Skill:Turn the seashells into blue in the range of 3*3.
+4219,Meowth,4,4104,19,hero_08,580,4220,{1|1680}|{2|900},Special Skill:Turn the seashells into blue in the range of 3*3.
+4220,Meowth,4,4105,20,hero_08,605,0,{0|0},Special Skill:Turn the seashells into blue in the range of 3*3.
+4301,Catmander,4,4201,1,hero_14,250,4302,{1|120},Special Skill:Collect 3 seashells in a row.
+4302,Catmander,4,4201,2,hero_14,275,4303,{1|160}|{2|20},Special Skill:Collect 3 seashells in a row.
+4303,Catmander,4,4202,3,hero_14,300,4304,{1|200}|{2|40},Special Skill:Collect 3 seashells in a row.
+4304,Catmander,4,4202,4,hero_14,325,4305,{1|280}|{2|60},Special Skill:Collect 3 seashells in a row.
+4305,Catmander,4,4202,5,hero_14,350,4306,{1|340}|{2|80},Special Skill:Collect 5 seashells in a row.
+4306,Catmander,4,4202,6,hero_14,375,4307,{1|400}|{2|100},Special Skill:Collect 5 seashells in a row.
+4307,Catmander,4,4202,7,hero_14,400,4308,{1|460}|{2|120},Special Skill:Collect 5 seashells in a row.
+4308,Catmander,4,4203,8,hero_14,425,4309,{1|520}|{2|140},Special Skill:Collect 5 seashells in a row.
+4309,Catmander,4,4203,9,hero_14,450,4310,{1|640}|{2|220},Special Skill:Collect 5 seashells in a row.
+4310,Catmander,4,4203,10,hero_14,475,4311,{1|720}|{2|260},Special Skill:Collect 7 seashells in a row.
+4311,Catmander,4,4203,11,hero_14,500,4312,{1|800}|{2|300},Special Skill:Collect 7 seashells in a row.
+4312,Catmander,4,4203,12,hero_14,525,4313,{1|880}|{2|340},Special Skill:Collect 7 seashells in a row.
+4313,Catmander,4,4203,13,hero_14,550,4314,{1|960}|{2|380},Special Skill:Collect 7 seashells in a row.
+4314,Catmander,4,4203,14,hero_14,575,4315,{1|1120}|{2|500},Special Skill:Collect 7 seashells in a row.
+4315,Catmander,4,4204,15,hero_14,600,4316,{1|1220}|{2|560},Special Skill:Collect 9 seashells in a row.
+4316,Catmander,4,4204,16,hero_14,625,4317,{1|1320}|{2|620},Special Skill:Collect 9 seashells in a row.
+4317,Catmander,4,4204,17,hero_14,650,4318,{1|1420}|{2|680},Special Skill:Collect 9 seashells in a row.
+4318,Catmander,4,4204,18,hero_14,675,4319,{1|1520}|{2|740},Special Skill:Collect 9 seashells in a row.
+4319,Catmander,4,4204,19,hero_14,700,4320,{1|1680}|{2|900},Special Skill:Collect 9 seashells in a row.
+4320,Catmander,4,4205,20,hero_14,725,0,{0|0},Special Skill:Collect 9 seashells in a row.
+5101,Catcatshi,5,5101,1,hero_05,80,5102,{1|40},Special Skill:Turn the blocks into violet in the range of 3*3.
+5102,Catcatshi,5,5101,2,hero_05,105,5103,{1|80},Special Skill:Turn the blocks into violet in the range of 3*3.
+5103,Catcatshi,5,5102,3,hero_05,130,5104,{1|120},Special Skill:Turn the blocks into violet in the range of 3*3.
+5104,Catcatshi,5,5102,4,hero_05,155,5105,{1|200},Special Skill:Turn the blocks into violet in the range of 3*3.
+5105,Catcatshi,5,5102,5,hero_05,180,5106,{1|260}|{2|20},Special Skill:Turn the blocks into violet in the range of 3*3.
+5106,Catcatshi,5,5102,6,hero_05,205,5107,{1|320}|{2|40},Special Skill:Turn the blocks into violet in the range of 3*3.
+5107,Catcatshi,5,5102,7,hero_05,230,5108,{1|380}|{2|60},Special Skill:Turn the blocks into violet in the range of 3*3.
+5108,Catcatshi,5,5103,8,hero_05,255,5109,{1|440}|{2|80},Special Skill:Turn the blocks into violet in the range of 3*3.
+5109,Catcatshi,5,5103,9,hero_05,280,5110,{1|560}|{2|160},Special Skill:Turn the blocks into violet in the range of 3*3.
+5110,Catcatshi,5,5103,10,hero_05,305,5111,{1|640}|{2|200},Special Skill:Turn the blocks into violet in the range of 3*3.
+5111,Catcatshi,5,5103,11,hero_05,330,5112,{1|720}|{2|240},Special Skill:Turn the blocks into violet in the range of 3*3.
+5112,Catcatshi,5,5103,12,hero_05,355,5113,{1|800}|{2|280},Special Skill:Turn the blocks into violet in the range of 3*3.
+5113,Catcatshi,5,5103,13,hero_05,380,5114,{1|880}|{2|320},Special Skill:Turn the blocks into violet in the range of 3*3.
+5114,Catcatshi,5,5103,14,hero_05,405,5115,{1|1040}|{2|440},Special Skill:Turn the blocks into violet in the range of 3*3.
+5115,Catcatshi,5,5104,15,hero_05,430,5116,{1|1140}|{2|500},Special Skill:Turn the blocks into violet in the range of 3*3.
+5116,Catcatshi,5,5104,16,hero_05,455,5117,{1|1240}|{2|560},Special Skill:Turn the blocks into violet in the range of 3*3.
+5117,Catcatshi,5,5104,17,hero_05,480,5118,{1|1340}|{2|620},Special Skill:Turn the blocks into violet in the range of 3*3.
+5118,Catcatshi,5,5104,18,hero_05,505,5119,{1|1440}|{2|680},Special Skill:Turn the blocks into violet in the range of 3*3.
+5119,Catcatshi,5,5104,19,hero_05,530,5120,{1|1600}|{2|840},Special Skill:Turn the blocks into violet in the range of 3*3.
+5120,Catcatshi,5,5105,20,hero_05,555,0,{0|0},Special Skill:Turn the blocks into violet in the range of 3*3.
+5201,Gray,5,5201,1,hero_07,200,5202,{1|120},Specail Skill:Collect 3 seashells in a row.
+5202,Gray,5,5201,2,hero_07,225,5203,{1|160}|{2|20},Specail Skill:Collect 3 seashells in a row.
+5203,Gray,5,5202,3,hero_07,250,5204,{1|200}|{2|40},Specail Skill:Collect 3 seashells in a row.
+5204,Gray,5,5202,4,hero_07,275,5205,{1|280}|{2|60},Specail Skill:Collect 3 seashells in a row.
+5205,Gray,5,5202,5,hero_07,300,5206,{1|340}|{2|80},Specail Skill:Collect 5 seashells in a row.
+5206,Gray,5,5202,6,hero_07,325,5207,{1|400}|{2|100},Specail Skill:Collect 5 seashells in a row.
+5207,Gray,5,5202,7,hero_07,350,5208,{1|460}|{2|120},Specail Skill:Collect 5 seashells in a row.
+5208,Gray,5,5203,8,hero_07,375,5209,{1|520}|{2|140},Specail Skill:Collect 5 seashells in a row.
+5209,Gray,5,5203,9,hero_07,400,5210,{1|640}|{2|220},Specail Skill:Collect 5 seashells in a row.
+5210,Gray,5,5203,10,hero_07,425,5211,{1|720}|{2|260},Specail Skill:Collect 7 seashells in a row.
+5211,Gray,5,5203,11,hero_07,450,5212,{1|800}|{2|300},Specail Skill:Collect 7 seashells in a row.
+5212,Gray,5,5203,12,hero_07,475,5213,{1|880}|{2|340},Specail Skill:Collect 7 seashells in a row.
+5213,Gray,5,5203,13,hero_07,500,5214,{1|960}|{2|380},Specail Skill:Collect 7 seashells in a row.
+5214,Gray,5,5203,14,hero_07,525,5215,{1|1120}|{2|500},Specail Skill:Collect 7 seashells in a row.
+5215,Gray,5,5204,15,hero_07,550,5216,{1|1220}|{2|560},Specail Skill:Collect 9 seashells in a row.
+5216,Gray,5,5204,16,hero_07,575,5217,{1|1320}|{2|620},Specail Skill:Collect 9 seashells in a row.
+5217,Gray,5,5204,17,hero_07,600,5218,{1|1420}|{2|680},Specail Skill:Collect 9 seashells in a row.
+5218,Gray,5,5204,18,hero_07,625,5219,{1|1520}|{2|740},Specail Skill:Collect 9 seashells in a row.
+5219,Gray,5,5204,19,hero_07,650,5220,{1|1680}|{2|900},Specail Skill:Collect 9 seashells in a row.
+5220,Gray,5,5205,20,hero_07,675,0,{0|0},Specail Skill:Collect 9 seashells in a row.
+5301,James,5,5401,1,hero_12,250,5302,{1|120},Special skill:Collect the seashells in cross direction.
+5302,James,5,5401,2,hero_12,275,5303,{1|160}|{2|20},Special skill:Collect the seashells in cross direction.
+5303,James,5,5402,3,hero_12,300,5304,{1|200}|{2|40},Special skill:Collect the seashells in cross direction.
+5304,James,5,5402,4,hero_12,325,5305,{1|280}|{2|60},Special skill:Collect the seashells in cross direction.
+5305,James,5,5402,5,hero_12,350,5306,{1|340}|{2|80},Special skill:Collect the seashells in cross direction.
+5306,James,5,5402,6,hero_12,375,5307,{1|400}|{2|100},Special skill:Collect the seashells in cross direction.
+5307,James,5,5402,7,hero_12,400,5308,{1|460}|{2|120},Special skill:Collect the seashells in cross direction.
+5308,James,5,5403,8,hero_12,425,5309,{1|520}|{2|140},Special skill:Collect the seashells in cross direction.
+5309,James,5,5403,9,hero_12,450,5310,{1|640}|{2|220},Special skill:Collect the seashells in cross direction.
+5310,James,5,5403,10,hero_12,475,5311,{1|720}|{2|260},Special skill:Collect the seashells in cross direction.
+5311,James,5,5403,11,hero_12,500,5312,{1|800}|{2|300},Special skill:Collect the seashells in cross direction.
+5312,James,5,5403,12,hero_12,525,5313,{1|880}|{2|340},Special skill:Collect the seashells in cross direction.
+5313,James,5,5403,13,hero_12,550,5314,{1|960}|{2|380},Special skill:Collect the seashells in cross direction.
+5314,James,5,5403,14,hero_12,575,5315,{1|1120}|{2|500},Special skill:Collect the seashells in cross direction.
+5315,James,5,5404,15,hero_12,600,5316,{1|1220}|{2|560},Special skill:Collect the seashells in cross direction.
+5316,James,5,5404,16,hero_12,625,5317,{1|1320}|{2|620},Special skill:Collect the seashells in cross direction.
+5317,James,5,5404,17,hero_12,650,5318,{1|1420}|{2|680},Special skill:Collect the seashells in cross direction.
+5318,James,5,5404,18,hero_12,675,5319,{1|1520}|{2|740},Special skill:Collect the seashells in cross direction.
+5319,James,5,5404,19,hero_12,700,5320,{1|1680}|{2|900},Special skill:Collect the seashells in cross direction.
+5320,James,5,5405,20,hero_12,725,0,{0|0},Special skill:Collect the seashells in cross direction.

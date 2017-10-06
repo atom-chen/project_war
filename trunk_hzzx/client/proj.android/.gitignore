@@ -1,0 +1,15 @@
+bin
+gen
+assets/cocos
+assets/Data
+assets/Font
+assets/Layout
+assets/Particle
+assets/Picture
+assets/Script
+assets/Shader
+assets/Sound
+assets/Config.json
+assets/Main.lua
+assets/NativeFileList.txt
+assets/NativeVersion.txt

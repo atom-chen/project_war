@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mini_card_more_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/mini_card_edti_bk"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/mini_add_bankcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/mini_margin_10"
+            android:layout_marginRight="@dimen/mini_margin_10"
+            android:layout_marginTop="@dimen/mini_margin_27"
+            android:background="@drawable/mini_btn_card_setdefault_selector"
+            android:gravity="center"
+            android:text="@string/mini_page_add_title"
+            android:textColor="@color/mini_text_color_gray"
+            android:textSize="@dimen/mini_margin_19" />
+
+        <!--
+             <Button
+            android:id="@+id/mini_setting_pay_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/mini_margin_10"
+            android:layout_marginRight="@dimen/mini_margin_10"
+            android:layout_marginTop="@dimen/mini_margin_13"
+            android:background="@drawable/mini_btn_card_setdefault_selector"
+            android:gravity="center"
+            android:text="@string/mini_setting_pay_password"
+            android:textColor="@color/mini_text_color_gray"
+            android:textSize="@dimen/mini_margin_19" />
+        -->
+
+        <Button
+            android:id="@+id/mini_card_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/mini_margin_13"
+            android:layout_marginLeft="@dimen/mini_margin_10"
+            android:layout_marginRight="@dimen/mini_margin_10"
+            android:layout_marginTop="@dimen/mini_margin_27"
+            android:background="@drawable/mini_btn_card_cancle_selector"
+            android:gravity="center"
+            android:text="@string/cardCancle"
+            android:textColor="@color/mini_input_hint_color"
+            android:textSize="@dimen/mini_margin_19" />
+    </LinearLayout>
+
+</LinearLayout>

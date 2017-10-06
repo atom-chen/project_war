@@ -1,0 +1,10 @@
+key_number:id,string:display,number:main_map_index,tuple_number:pos
+1,fumu1,1,{236|822}
+2,xiaochuan,1,{360|528}
+3,xiaopangxie,1,{300|65}
+4,haiou,2,{120|269}
+5,fumu1,2,{219|926}
+6,xiaojinyu,2,{551|796}
+7,xiaojinyu,3,{366|152}
+8,haishen,4,{542|354}
+9,xiaopangxie,5,{587|800}

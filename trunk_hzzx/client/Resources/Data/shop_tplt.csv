@@ -1,0 +1,16 @@
+key_number:id,string:channel_id,string:name,string:image,string:price,number:diamonds,string:dx_code,string:lt_code,string:yd_code
+1,10001,一小袋钻石,shop_diamond_1.png,12.00,250,0,0,0
+2,10001,一中袋钻石,shop_diamond_2.png,30.00,750,0,0,0
+3,10001,一大袋钻石,shop_diamond_3.png,68.00,1800,0,0,0
+4,10001,一大箱钻石,shop_diamond_4.png,128.00,4500,0,0,0
+5,10001,超大箱钻石,shop_diamond_5.png,258.00,10000,0,0,0
+6,10241,一小袋钻石,shop_diamond_1.png,1.00,20,QY00039AB011,QY00039AB011,QY00039AB011
+7,10241,一中袋钻石,shop_diamond_2.png,3.00,75,QY00039AB012,QY00039AB012,QY00039AB012
+8,10241,一大袋钻石,shop_diamond_3.png,7.00,185,QY00039AB013,QY00039AB013,QY00039AB013
+9,10241,一大箱钻石,shop_diamond_4.png,15.00,527,QY00039AB014,QY00039AB014,QY00039AB014
+10,10241,超大箱钻石,shop_diamond_5.png,20.00,775,QY00039AB015,QY00039AB015,QY00039AB015
+11,20001,一小袋钻石,shop_diamond_1.png,12.00,250,0,0,0
+12,20001,一中袋钻石,shop_diamond_2.png,30.00,750,0,0,0
+13,20001,一大袋钻石,shop_diamond_3.png,68.00,1800,0,0,0
+14,20001,一大箱钻石,shop_diamond_4.png,128.00,4500,0,0,0
+15,20001,超大箱钻石,shop_diamond_5.png,258.00,10000,0,0,0

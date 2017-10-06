@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shareplatform_invite_background_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/shareplatform_invite_view_id"
+        android:layout_width="344dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shareplatform_invite_background_white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="344dp"
+            android:layout_height="49dp"
+            android:background="@drawable/shareplatform_invite_title_background" >
+
+            <ImageView
+                android:id="@+id/shareplatform_invite_back_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/shareplatform_invite_back"
+                android:gravity="left" />
+
+            <EditText
+                android:id="@+id/shareplatform_invite_search_id"
+                android:layout_width="247dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@id/shareplatform_invite_back_id"
+                android:background="@drawable/shareplatform_invite_editsearch"
+                android:drawableLeft="@drawable/shareplatform_invite_search"
+                android:hint="@string/invite_search"
+                android:singleLine="true"
+                android:textColor="#b1b1b1"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/shareplatform_invite_friends_search_text_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="未找到任何联系人"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/shareplatform_invite_contact_listview_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="22dp"
+                android:divider="@null" />
+
+            <LinearLayout
+                android:id="@+id/shareplatform_invite_progressbar_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="正在加载..." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shareplatform_invite_nonet_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="暂无通讯录好友,麻烦亲开启通讯录权限或添加通讯录好友" 
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/shareplatform_invite_nonet_text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="点击刷新"
+                    android:textColor="#0A84BD"
+                    android:visibility="gone" 
+                    android:textSize="17sp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

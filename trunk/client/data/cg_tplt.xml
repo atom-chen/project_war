@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cg_tplt>
+		<key_number.id>1</key_number.id>
+		<string.image>cg_1.jpg</string.image>
+	</cg_tplt>
+	<cg_tplt>
+		<key_number.id>2</key_number.id>
+		<string.image>cg_2.jpg</string.image>
+	</cg_tplt>
+	<cg_tplt>
+		<key_number.id>3</key_number.id>
+		<string.image>cg_3.jpg</string.image>
+	</cg_tplt>
+</root>

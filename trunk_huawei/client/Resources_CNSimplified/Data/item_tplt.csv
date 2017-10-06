@@ -1,0 +1,14 @@
+key_number:id,string:name,string:image
+1,毛球,ball_01.png
+2,饼干,cookie_01.png
+3,钥匙,key_01.png
+4,钻石,diamond_01.png
+5,饼干包,ball_03.png
+6,钻石包,shop_diamond_2.png
+7,体力,max_power.png
+8,体力上限,max_power_2.png
+9,糖果包,cookie_03.png
+10,少量饼干,ball_01.png
+11,大量饼干,ball_01.png
+12,少量糖果,cookie_02.png
+13,大量糖果,cookie_02.png

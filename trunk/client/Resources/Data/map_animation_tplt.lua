@@ -1,0 +1,11 @@
+return{
+[1]={id=1,display="fumu1",main_map_index=1,pos={{236,822}}},
+[2]={id=2,display="xiaochuan",main_map_index=1,pos={{360,528}}},
+[3]={id=3,display="xiaopangxie",main_map_index=1,pos={{300,65}}},
+[4]={id=4,display="haiou",main_map_index=2,pos={{120,269}}},
+[5]={id=5,display="fumu1",main_map_index=2,pos={{219,926}}},
+[6]={id=6,display="xiaojinyu",main_map_index=2,pos={{551,796}}},
+[7]={id=7,display="xiaojinyu",main_map_index=3,pos={{366,152}}},
+[8]={id=8,display="haishen",main_map_index=4,pos={{542,354}}},
+[9]={id=9,display="xiaopangxie",main_map_index=5,pos={{587,800}}}
+}

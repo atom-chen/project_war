@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="invite_item_selected">#e6ebee</color>
+    <color name="invite_item_unselected">#f7f7f7</color>
+    <color name="translucent_background">#a0000000</color>
+
+</resources>

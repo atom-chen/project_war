@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="com.zhexin.hdzdy"
+		  android:versionCode="80700"
+		  android:versionName="0.8.7"
+		  android:installLocation="auto">
+
+	<uses-sdk android:minSdkVersion="9"/>
+	<uses-feature android:glEsVersion="0x00020000" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_SMS"/>
+	<uses-permission android:name="com.android.vending.BILLING"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon">
+					 
+        <!-- Tell Cocos2dxActivity the name of our .so -->
+        <meta-data android:name="android.app.lib_name" android:value="cocos2dlua" />
+		
+        <!-- 主活动 -->
+        <activity android:name="org.cocos2dx.lua.AppActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation">
+            
+            <intent-filter>
+		        <action android:name="android.intent.action.MAIN" />
+		        <category android:name="android.intent.category.LAUNCHER" />
+		    </intent-filter>
+        </activity>
+        
+        <!-- ShareSDK -->
+		<activity android:name="cn.sharesdk.framework.ShareSDKUIShell"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:configChanges="keyboardHidden|orientation|screenSize"
+				  android:windowSoftInputMode="stateHidden|adjustResize" >
+			
+			<!--
+				如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
+				事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
+				则分享结束以后不能得到正确的回调
+			-->
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+		
+		<!-- ShareSDK,微信分享回调 -->
+        <activity android:name=".wxapi.WXEntryActivity"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:configChanges="keyboardHidden|orientation|screenSize"
+				  android:exported="true">
+		</activity>
+		
+        <!-- data eye -->
+        <meta-data android:value="C66CDD79B8701972673706ECF375D6B3" android:name="DC_APPID"/>
+		<meta-data android:value="10241" android:name="DC_CHANNEL"/>
+		
+		<!-- 杭州哲信 -->
+    	<activity android:name="com.qy.pay.a.b"
+    	    	  android:configChanges="keyboard|keyboardHidden|navigation|orientation">
+        </activity>
+        <service android:name="com.qy.pay.a.e" />
+        <service android:name="com.qy.pay.a.f" />
+        
+        <!-- 友盟统计 -->
+        <meta-data android:value="551e470afd98c573c00008f7" android:name="UMENG_APPKEY"/>
+		<meta-data android:value="XXXXX" android:name="UMENG_CHANNEL"/>
+		
+    </application>
+
+    <supports-screens android:anyDensity="true"
+                      android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"/>
+</manifest> 

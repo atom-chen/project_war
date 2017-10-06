@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">喵星人连连消</string>
+    <string name="str_share_success">分享成功</string>
+    <string name="str_share_fail">分享失败</string>
+    <string name="str_share_cancel">分享取消</string>
+    <string name="str_share_fail_get_token">分享失败：token获取失败</string>
+    <string name="str_share_fail_login_fx">分享失败：飞信登录失败</string>
+    <string name="str_share_cancel_login_fx">分享取消：飞信登录取消</string>
+    <string name="str_connect_timeout">网络连接超时，请稍后重试</string>
+    <string name="str_request_server_fail">请求服务器失败</string>
+    
+    <!-- 退出对话框 -->
+    <string name="exit_dialog_title">提示</string>
+    <string name="exit_dialog_msg">要离开游戏吗？</string>
+    <string name="exit_dialog_btn_yes">退出</string>
+    <string name="exit_dialog_btn_no">取消</string>
+    
+    <!-- 支付 -->
+    <string name="onekes_pay_success">支付成功</string>
+    <string name="onekes_pay_fail">支付失败</string>
+    <string name="onekes_pay_cancel">支付取消</string>
+    <string name="onekes_pay_ali_unkonwn">支付结果确认中</string>
+    
+    <string name="onekes_wx_pay_load_title">提示</string>
+    <string name="onekes_wx_pay_load_msg">正在获取订单...</string>
+	
+	<!-- 更新提示 -->
+    <string name="update_in_doing">正在后台更新中，请稍后....</string>
+    <string name="update_must">需要更新到最新版本才能进入游戏，是否确定退出游戏?</string>
+    <string name="update_fail">更新失败，请检查网络连接情况，是否确定退出游戏?</string>
+    <string name="update_sure">确定</string>
+    
+</resources>

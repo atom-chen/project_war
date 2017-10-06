@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shareplatform_invite_background_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <LinearLayout
+        android:id="@+id/shareplatform_invite_view_id"
+        android:layout_width="429dp"
+        android:layout_height="337dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shareplatform_invite_background_white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="429dp"
+            android:layout_height="49dp"
+            android:background="@drawable/shareplatform_invite_title_background" >
+
+            <ImageView
+                android:id="@+id/shareplatform_invite_back_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/shareplatform_invite_back"
+                android:gravity="left" />
+
+            <EditText
+                android:id="@+id/shareplatform_invite_search_id"
+                android:layout_width="362dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@id/shareplatform_invite_back_id"
+                android:background="@drawable/shareplatform_invite_editsearch"
+                android:drawableLeft="@drawable/shareplatform_invite_search"
+                android:hint="@string/invite_search"
+                android:singleLine="true"
+                android:textColor="#b1b1b1"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/shareplatform_invite_contact_list_id"
+            android:layout_width="match_parent"
+            android:layout_height="48.5dp"
+            android:background="@drawable/shareplatform_invite_item_contact_background"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shareplatform_invite_contact_head"
+                android:gravity="left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="通讯录好友"
+                android:textColor="#5a5a5a"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/sharmform_invite_goto_contact" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.fetion.shareplatforminvite.view.XListView
+                android:id="@+id/shareplatform_invite_friends_listview_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="22dp"
+                android:divider="@null" />
+
+            <LinearLayout
+                android:id="@+id/shareplatform_invite_progressbar_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="正在加载..." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shareplatform_invite_nonet_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="加载boss话单失败，无通话记录或无权限，请重新加载" />
+
+                <TextView
+                    android:id="@+id/shareplatform_invite_nonet_text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="点击刷新"
+                    android:textColor="#0A84BD" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

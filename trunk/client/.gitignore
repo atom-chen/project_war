@@ -1,0 +1,6 @@
+ResourcesCrypto_internal
+ResourcesCrypto_external
+ResourcesCrypto_official
+data/*.lua
+data/cn/*.lua
+data/en/*.lua

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<copy_resource_tplt>
+		<key_number.id>1</key_number.id>
+		<string.map_bg>map_bg_001.jpg</string.map_bg>
+		<string.seabed_bg>map_booth_bg_001.png</string.seabed_bg>
+		<string.booth>map_booth_001.png</string.booth>
+		<list_string.seabed_effect>water_down_01.png|water_light.fsh</list_string.seabed_effect>
+	</copy_resource_tplt>
+	<copy_resource_tplt>
+		<key_number.id>2</key_number.id>
+		<string.map_bg>map_bg_002.jpg</string.map_bg>
+		<string.seabed_bg>map_booth_bg_002.png</string.seabed_bg>
+		<string.booth>map_booth_001.png</string.booth>
+		<list_string.seabed_effect>water_down_02.png|water_light.fsh</list_string.seabed_effect>
+	</copy_resource_tplt>
+</root>
